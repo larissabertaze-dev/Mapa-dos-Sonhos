@@ -80,6 +80,39 @@ div.mapa {
     height: 60vh;
 }
 
+input {
+    padding: 8px;
+    margin: 5px;
+    width: 100%;
+    max-width: 300px;
+    }
+
+button {
+    background-color: var(--color02);
+    color: rgb(0, 0, 0);   
+    border: none;
+    padding: 6px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    }
+
+th {
+    background-image:linear-gradient(to right, var(--color01), var(--color02), var(--color03));
+    color: rgb(2, 2, 2);
+    padding: 8px;
+    }
+
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    }
+
 footer {
     background-color: rgba(255, 255, 255, 0.459);
     padding: 10px;
@@ -87,4 +120,42 @@ footer {
     font-family: var(--font-family);
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     bottom: 0;
+}
+
+/* 🌟 RESPONSIVO */
+@media (max-width: 768px) {
+
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+
+  thead {
+    display: none; /* esconde cabeçalho */
+  }
+
+  tr {
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+  }
+
+  td {
+    border: none;
+    position: relative;
+    padding-left: 50%;
+  }
+
+  td::before {
+    position: absolute;
+    left: 10px;
+    top: 8px;
+    font-weight: bold;
+  }
+
+  td:nth-child(1)::before { content: "Sonho"; }
+  td:nth-child(2)::before { content: "Prazo"; }
+  td:nth-child(3)::before { content: "Status"; }
+  td:nth-child(4)::before { content: "Ações"; }
+
 }

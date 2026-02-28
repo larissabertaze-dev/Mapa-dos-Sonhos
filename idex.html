@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pets</title>
+    <title>Mapa dos Sonhos</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="imagens/favicon.ico.png">
 
 </head>
 <body>
@@ -30,15 +31,22 @@
 
             <div class="mapa">
             <h2>Criando seu Mapa dos Sonho</h2>
-               <p></p><span id="totalDreams">0 sonhos</span> <button id="toggleTheme">🌙</button></p>
-
-               <input type="text" id="sonho" placeholder="Digite seu sonho">    <input type="text" id="prazo" placeholder="Prazo">              <button onclick="adicionarSonho()">Adicionar</button>
+               <input type="text" id="sonho" placeholder="Digite seu sonho">    
+               <input type="text" id="prazo" placeholder="Prazo">             
+               <button onclick="adicionarSonho()">Adicionar</button>
+                <table id="tabelaSonhos">
+                    <tr>
+                    <th>Sonho</th>
+                    <th>Prazo</th>
+                    <th>Status</th>
+                    <th>Ações</th>
+                    </tr>
+                </table>
 
             </div>
 
-
-
 <footer> Desenvolvido por Larissa</footer>
+<script src="script.js"></script>
 
 </body>
 </html>
