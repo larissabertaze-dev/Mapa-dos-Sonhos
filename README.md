@@ -4,6 +4,8 @@ Um projeto web interativo inspirado no conceito de Vision Board, onde o usuário
 
 O objetivo é transformar metas em realidade, um passo de cada vez ✨
 
+---
+
 📌 Sobre o Projeto
 
 O Mapa dos Sonhos permite que o usuário:
@@ -22,6 +24,8 @@ O Mapa dos Sonhos permite que o usuário:
 
 O projeto é totalmente responsivo e se adapta a dispositivos móveis.
 
+---
+
 🚀 Funcionalidades
 
 Adição de sonhos com prazo
@@ -38,6 +42,8 @@ Layout responsivo (mobile friendly)
 
 Tabela adaptável para celular
 
+---
+
 🛠 Tecnologias Utilizadas
 
 HTML5
@@ -47,6 +53,8 @@ CSS3
 JavaScript (Vanilla JS)
 
 LocalStorage
+
+---
 
 📱 Responsividade
 
@@ -62,6 +70,8 @@ Os dados ganham rótulos automáticos
 
 Layout mais organizado para leitura no celular
 
+---
+
 🎨 Design
 
 Uso de variáveis CSS (:root)
@@ -76,9 +86,13 @@ Background com imagem
 
 Estilização visual para metas concluídas (linha riscada e opacidade reduzida)
 
+---
+
 👩🏻‍💻 Autora
 
 Desenvolvido por Larissa
+
+---
 
 ⭐ Diferencial do Projeto
 
