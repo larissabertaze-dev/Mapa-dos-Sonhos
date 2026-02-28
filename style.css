@@ -1,0 +1,53 @@
+:root {
+    --color01: #2964E3;
+    --color02: #6629E3;
+    --color03: #2929E3;
+    --color04: #299EE3;
+    --color05: #A329E3;
+}
+body {
+   background-image: url(imagens/pexels-rakicevic-nenad-233369-1274260\ \(1\).jpg);
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+h1 {
+    font-family: Grand Hotel, cursive;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+div.menu {
+    background-image:linear-gradient(to right, var(--color02), var(--color04), var(--color05));
+    font-family: Grand Hotel, cursive;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+}
+
+div.conteudo1 {
+    background-color: rgba(255, 255, 255, 0.459);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+h2 {
+    font-family: Grand Hotel, cursive;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+div.listas {
+    background-color: rgba(255, 255, 255, 0.459);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
