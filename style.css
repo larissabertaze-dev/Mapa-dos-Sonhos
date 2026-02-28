@@ -4,7 +4,9 @@
     --color03: #2929E3;
     --color04: #299EE3;
     --color05: #A329E3;
+    --font-family: Grand Hotel, cursive;
 }
+
 body {
    background-image: url(imagens/pexels-rakicevic-nenad-233369-1274260\ \(1\).jpg);
     margin: 0;
@@ -12,12 +14,12 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 150vh;
 }
 
 h1 {
-    font-family: Grand Hotel, cursive;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: var(--font-family);
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.686);
     text-align: center;
 }
 
@@ -26,8 +28,13 @@ div.menu {
     font-family: Grand Hotel, cursive;
     padding: 10px;
     text-align: center;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);   
+}
+
+div.menu a {
+    color: rgba(2, 0, 0, 0.759);
+    text-decoration: none;
+    font-size: 15px;
 }
 
 div.conteudo1 {
@@ -39,7 +46,7 @@ div.conteudo1 {
     text-align: center;
 }
 h2 {
-    font-family: Grand Hotel, cursive;
+    font-family: var(--font-family);
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
     text-align: center;
 }
@@ -50,4 +57,34 @@ div.listas {
     margin: 20px;
     border-radius: 10px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+ul {
+    text-align: left;
+    margin-left: 40px;
+}
+
+li::marker {
+    content: "✨";
+    font-size: 17px;
+
+}
+
+div.mapa {
+    background-color: rgba(255, 255, 255, 0.459);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    height: 60vh;
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.459);
+    padding: 10px;
+    text-align: center;
+    font-family: var(--font-family);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    bottom: 0;
 }
